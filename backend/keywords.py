@@ -1,215 +1,191 @@
 # keywords file for all the keywords used
-
 keyword_to_function = {
-    # Engineering
+    # Engineering / Technology
     "engineer": "Engineering",
     "developer": "Engineering",
     "programmer": "Engineering",
     "technician": "Engineering",
-    "Software": "Engineering",
+    "software": "Engineering",
+    "hardware": "Engineering",
+    "architect": "Engineering",
+    "devops": "Engineering",
+    "qa": "Engineering",
+    "tester": "Engineering",
+    "sysadmin": "IT / Infrastructure",
+    "infrastructure": "IT / Infrastructure",
+    "network": "IT / Infrastructure",
+    "it": "IT / Infrastructure:",
 
-    # Data & Analytics
+    # Data & Analytics / AI / ML
     "data": "Data & Analytics",
-    "scientist": "Data & Analytics",
     "analyst": "Data & Analytics",
+    "scientist": "Data & Analytics",
     "bi": "Data & Analytics",
+    "analytics": "Data & Analytics",
+    "machine learning": "Data & Analytics",
+    "ml": "Data & Analytics",
+    "ai": "Data & Analytics",
+    "research": "Research & Development",
 
     # Product
     "product": "Product",
+    "product manager": "Product",
+    "pm": "Product",
 
     # Design
     "designer": "Design",
     "ux": "Design",
     "ui": "Design",
     "graphic": "Design",
+    "visual": "Design",
+    "illustrator": "Design",
+    "creative": "Design",
 
-    # Operations
+    # Operations / Logistics / Supply
     "operations": "Operations",
     "logistics": "Operations",
     "supply": "Operations",
     "procurement": "Operations",
+    "warehouse": "Operations",
+    "fulfillment": "Operations",
+    "operator": "Operations (Field / Manual)",
+    "maintenance": "Facilities / Maintenance",
+    "facility": "Facilities / Maintenance",
 
     # Sales
     "sales": "Sales",
     "account": "Sales",
     "business development": "Sales",
+    "partnership": "Sales",
+    "bd": "Sales",
 
     # Marketing
     "marketing": "Marketing",
     "brand": "Marketing",
     "advertising": "Marketing",
+    "pr": "Marketing",
+    "content": "Marketing",
+    "communications": "Marketing",
 
-    # Finance
+    # Finance / Accounting
     "finance": "Finance",
     "accountant": "Finance",
     "auditor": "Finance",
+    "controller": "Finance",
+    "financial": "Finance",
+    "treasurer": "Finance",
 
-    # HR
+    # HR / People
     "hr": "Human Resources",
     "human resources": "Human Resources",
     "recruiter": "Human Resources",
+    "talent": "Human Resources",
+    "learning": "Human Resources",
+    "training": "Human Resources",
+    "development": "Human Resources",
 
-    # Customer Support
+    # Customer Success / Support
     "support": "Customer Success / Support",
+    "customer": "Customer Success / Support",
     "service": "Customer Success / Support",
+    "helpdesk": "Customer Success / Support",
+    "cs": "Customer Success / Support",
 
-    # IT / Infrastructure
-    "it": "IT / Infrastructure",
-    "network": "IT / Infrastructure",
-    "sysadmin": "IT / Infrastructure",
-
-    # Legal
+    # Legal / Compliance / Risk
     "legal": "Legal & Compliance",
     "lawyer": "Legal & Compliance",
+    "attorney": "Legal & Compliance",
     "compliance": "Legal & Compliance",
+    "risk": "Legal & Compliance",
 
     # Leadership / Executive
     "chief": "Leadership / Executive",
     "ceo": "Leadership / Executive",
+    "cxo": "Leadership / Executive",
     "director": "Leadership / Executive",
     "vp": "Leadership / Executive",
+    "president": "Leadership / Executive",
+    "executive": "Leadership / Executive",
 
-    # R&D
-    "research": "Research & Development",
-
-    # Consulting
+    # Consulting / Advisory
     "consultant": "Consulting / Advisory",
     "advisor": "Consulting / Advisory",
+    "specialist": "Consulting / Advisory",
 
     # Education / Training
     "trainer": "Education / Training",
     "educator": "Education / Training",
+    "instructor": "Education / Training",
+    "coach": "Education / Training",
 
-    # Facilities / Maintenance
-    "maintenance": "Facilities / Maintenance",
-    "facility": "Facilities / Maintenance",
-
-    # Strategy / Planning
-    "strategy": "Strategy / Planning",
-    "planner": "Strategy / Planning",
-
-    # Field / Operations
-    "operator": "Operations (Field / Manual)"
+    # Misc / Other
+    "founder": "Leadership / Executive",
+    "cofounder": "Leadership / Executive",
+    "owner": "Leadership / Executive",
+    "partner": "Leadership / Executive",
+    "board": "Leadership / Executive",
+    "chairman": "Leadership / Executive",
+    "chairwoman": "Leadership / Executive",
 }
 
 department_keywords = {
-    # Engineering / Technology
     "engineering": ["engineer", "developer", "programmer", "technician",
-                    "sysadmin", "it", "infrastructure", "network",
-                    "architect"],
+                    "software", "hardware", "architect", "qa", "tester",
+                    "devops", "it"],
 
-    # Data / Analytics / AI / ML
-    "data": ["data", "analyst", "scientist", "machine learning", "ml", "ai",
-             "bi", "analytics", "research"],
+    "data": ["data", "analyst", "scientist", "bi", "analytics",
+             "machine learning",
+             "ml", "ai", "research"],
 
-    # Product / Design
-    "product": ["product", "ux", "ui", "designer", "graphic", "visual"],
+    "product": ["product", "product manager", "pm"],
 
-    # Operations / Logistics / Supply
+    "design": ["designer", "ux", "ui", "graphic", "visual", "illustrator",
+               "creative"],
+
     "operations": ["operations", "logistics", "supply", "procurement",
-                   "warehouse", "fulfillment", "maintenance", "facility",
-                   "operator"],
+                   "warehouse", "fulfillment", "operator"],
 
-    # Sales
-    "sales": ["sales", "account", "business development", "partnership"],
+    "marketing": ["marketing", "brand", "advertising", "pr", "content",
+                  "communications"],
 
-    # Marketing / Brand / Advertising
-    "marketing": ["marketing", "brand", "advertising", "pr", "content"],
+    "sales": ["sales", "account", "business development", "partnership", "bd"],
 
-    # Finance / Accounting
-    "finance": ["finance", "accountant", "auditor", "controller", "financial"],
+    "finance": ["finance", "accountant", "auditor", "controller", "financial",
+                "treasurer"],
 
-    # Human Resources / People
     "hr": ["hr", "human resources", "recruiter", "talent", "learning",
            "training", "development"],
 
-    # Customer Success / Support
-    "customer success": ["support", "customer", "service", "helpdesk"],
+    "customer success": ["support", "customer", "service", "helpdesk", "cs"],
 
-    # Legal / Compliance / Risk
     "legal": ["legal", "lawyer", "attorney", "compliance", "risk"],
 
-    # Leadership / Executive / Strategy
     "leadership": ["ceo", "cxo", "cto", "chief", "vp", "director", "executive",
-                   "president", "strategy", "planning"],
+                   "president", "founder", "cofounder", "owner", "partner",
+                   "board"],
 
-    # Consulting / Advisory
     "consulting": ["consultant", "advisor", "specialist"],
 
-    # Research & Development / Science
-    "r&d": ["research", "scientist", "lab", "investigator"],
+    "education": ["trainer", "educator", "instructor", "coach", "learning"],
 
-    # Education / Training
-    "education": ["trainer", "educator", "learning", "instruction"],
-
-    # Facilities / Maintenance
     "facilities": ["maintenance", "facility", "operations", "operator"],
 
-    # Miscellaneous / Other
     "other": ["partner", "founder", "cofounder", "owner", "board", "chairman",
-              "chairwoman"]
+              "chairwoman", "chairperson"]
 }
 
 
 seniority_keywords = [
-    "intern",
-    "trainee",
-    "junior",
-    "assistant",
-    "apprentice",
-    "associate",
-    "graduate",
-    "entry-level",
-    "entry level",
-    "staff",
-    "specialist",
-    "coordinator",
-    "technician",
-    "consultant",
-    "professional",
-    "senior",
-    "lead",
-    "principal",
-    "sr",
-    "experienced",
-    "expert",
-    "advisor",
-    "mentor",
-    "manager",
-    "supervisor",
-    "team lead",
-    "foreman",
-    "head of",
-    "head",
-    "controller",
-    "director",
-    "managing",
-    "executive",
-    "vp",
-    "vice president",
-    "deputy director",
-    "associate director",
-    "chief",
-    "ceo",
-    "coo",
-    "cfo",
-    "cto",
-    "cmo",
-    "cio",
-    "chro",
-    "president",
-    "founder",
-    "cofounder",
-    "owner",
-    "partner",
-    "chairman",
-    "chairwoman",
-    "chairperson",
-    "board member",
-    "non executive director",
-    "leader",
-    "leadership",
-    "directorate",
-    "fellow",
-    "principal investigator"
+    "intern", "trainee", "junior", "assistant", "apprentice", "associate",
+    "graduate", "entry-level", "entry level", "staff", "specialist",
+    "coordinator", "technician", "consultant", "professional",
+    "senior", "lead", "principal", "sr", "experienced", "expert", "advisor",
+    "mentor", "manager", "supervisor", "team lead", "foreman", "head of",
+    "head", "controller", "director", "managing", "executive", "vp",
+    "vice president", "deputy director", "associate director", "chief",
+    "ceo", "coo", "cfo", "cto", "cmo", "cio", "chro", "president",
+    "founder", "cofounder", "owner", "partner", "chairman", "chairwoman",
+    "chairperson", "board member", "non executive director", "leader",
+    "leadership", "directorate", "fellow", "principal investigator",
+    "senior manager", "lead consultant", "principal engineer"
 ]
